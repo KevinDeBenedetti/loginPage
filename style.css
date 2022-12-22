@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 914px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    background-color: rgba(146, 196, 250, 0.5);
+    min-height: 25vh;
+    min-width: 38vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 80%;
+}
+h1 {
+    text-align: center;
+    margin: 15% 0;
+}
+section div {
+    margin: 3% 0;
+}
+.form_email {
+    display: flex;
+}
+.form_email label {
+    margin-right: 2%;
+}
+.form_password {
+    display: flex;
+}
+.form_password label {
+    margin-right: 2%;
+}
+.form_submit {
+    margin: 10% 0;
+    text-align: center;
+}
+.form_submit input {
+    background-color: #FABF9D;
+    padding: 1%;
+}
+.form_submit input:hover {
+    background-color: #FAE784;
+}
